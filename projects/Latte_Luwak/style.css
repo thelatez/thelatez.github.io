@@ -1,0 +1,438 @@
+/*HEADERFONTTI*/
+/*<weight>: Use a value from 100 to 900 */
+.bitter-font {
+    font-family: "Bitter", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.bitter-nav {
+    font-family: "Bitter", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.bitter-footer {
+    font-family: "Bitter", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+/*TUOTENIMIFONTTI*/
+.rosarivo-regular {
+    font-family: "Rosarivo", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+.rosarivo-regular-italic {
+    font-family: "Rosarivo", cursive;
+    font-weight: 600;
+    font-style: italic;
+}
+/*TEKSTIT, HINNAT*/
+.martel-regular {
+    font-family: "Martel", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+/*--------------BODY-----------------*/
+body {
+    background-color: #F3DFA2;
+    margin: 0;
+}
+
+/*------------INDEX SIVU-------------*/
+/*Tekstien padding*/
+.indexteksti {
+    padding: 5px;
+}
+/*Sivun laatikko*/
+.indexbox {
+    width: 80%;
+    background-color: #6A4F39;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px black;
+    text-align: left;
+    color: white;
+    text-shadow: 1px 2px black;
+}
+/*Kuvat indexissä*/
+.marjatta, .kahvilakuva{
+    width: 50%;
+    max-height: 500px;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.kuvausteksti{
+    text-align: center;
+}
+
+/*------------JUOMAT SIVU-------------*/
+.button {
+    font-size: 20px;
+    padding: 10px 10px;
+    background-color: whitesmoke;
+    border-style: double;
+    border-width: 6px;
+    border-radius: 10px;
+    border-color: #513323;
+    margin-top: 20px;
+    transition-duration: 0.5s;
+}
+.button:hover {
+    background-color: #513323;
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+.button:active {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    color: #513323;
+}
+
+.kahvit, .leivonnaiset {
+    text-align: center;
+    margin: 1%;
+}
+
+.tuotteet {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.tuotekortit {
+    display:flex;
+    flex-flow: row wrap;
+    flex-shrink: 1;
+    padding: 1%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    width: 45%;
+    border-radius: 5px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.6);
+}
+
+.tuotekuvaus {
+    width: 45%;
+    justify-content: flex-end;
+    align-content: flex-start;
+    margin-left: 4%;
+    text-align: center;
+}
+
+.tuotekuvat {
+    width: 50%;
+    order:-1;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.tuotekuvat img {
+    width: 100%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.tuotehinta {
+    font-size: 25px;
+}
+
+/*---------TAULUKKO-----------*/
+
+.tarjoukset {
+    margin: 1%;
+}
+
+.taulukko {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 5px;
+    width: 100%;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.6);
+}
+
+th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 22%;
+    text-align: center;
+    padding: 5px;
+}
+
+th {
+    background-color: #6A4F39;
+    color: white;
+    font-size: 20px;
+}
+
+td {
+    font-size: 16px;
+}
+
+/* TÄHÄN ON JOSSAIN VAIHEESSA KOSKETTAVA*/
+.google-maps {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.google-maps iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+/*-----------HEADER & NAV------------*/
+header {
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-style: double;
+    border-color: #513323;
+    border-width: 0.4em;
+    background-color: #6A4F39;
+}
+
+#latte-luwak {
+    margin: 0;
+    padding: 6px;
+    text-align: center;
+    color:white;
+    border-left: double;
+    border-right: double;
+    border-top: double;
+    border-color: #513323;
+    border-width: 0.2em;
+    background-color: #6A4F39;
+    text-shadow: 5px 3px #513323;
+}
+
+#logo {
+    width: 49px;
+    display: flex;
+    justify-content: left;
+}
+
+ul {
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6A4F39;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    float: left;
+}
+
+.juoma, .ruoka, .etusivu {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 150%;
+    text-shadow: 3px 2px #513323;
+}
+
+.juoma:hover, .ruoka:hover, .etusivu:hover {
+    background-color: #000000;
+}
+
+#active {
+    text-decoration: underline wavy violet;
+    background-color: #7a5e47;
+}
+
+/*--------------FOOTER-------------*/
+.footer {
+    left: 0;
+    bottom: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #6A4F39;
+    color: #ffffff;
+    border-style: double;
+    border-color: #513323;
+    border-width: 0.4em;
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-shadow: 3px 2px #513323;
+}
+
+.flex-item-left {
+    flex: 33%;
+    padding: 5px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.flex-item-right {
+    flex: 33%;
+    padding: 5px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.footernimi {
+    font-size: 140%;
+}
+/*----------------------------------*/
+
+/*PUHELIN*/
+@media only screen and (max-width: 321px) {
+    .juoma, .ruoka, .etusivu{
+        font-size: 100%;
+    }
+    #latte-luwak {
+        font-size: 160%;
+    }
+    #logo {
+        width: 36px;
+        margin-left: 2px;
+    }
+
+    .tuotteet {
+        flex-flow: column wrap;
+    }
+    .tuotekortit {
+        width: 93%;
+        margin-left: 2%;
+    }
+
+    .taulukko {
+        width: 95%;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    table {
+        width: 95%;
+    }
+    th {
+        font-size: 11px;
+        padding: 1px;
+    }
+    td {
+        font-size: 11px;
+        padding: 1px;
+    }
+    .button {
+        font-size: 16px;
+        padding: 5px 5px;
+        margin-top: 5px;
+    }
+}
+@media only screen and (min-width: 322px) and (max-width: 450px) {
+    .juoma, .ruoka, .etusivu{
+        font-size: 115%;
+    }
+    #latte-luwak {
+        font-size: 160%;
+    }
+    #logo {
+        width: 42px;
+        margin-left: 2px;
+    }
+
+    .tuotteet {
+        flex-flow: column wrap;
+    }
+    .tuotekortit {
+        width: 93%;
+        margin-left: 2%;
+    }
+
+    .taulukko {
+        width: 95%;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    table {
+        width: 95%;
+    }
+    th {
+        font-size: 11px;
+        padding: 1px;
+    }
+    td {
+        font-size: 11px;
+        padding: 1px;
+    }
+    .button {
+        font-size: 16px;
+        padding: 5px 5px;
+        margin-top: 5px;
+    }
+
+}
+
+@media only screen and (min-width: 451px) and (max-width: 775px) {
+    .tuotteet {
+        flex-flow: column wrap;
+    }
+    .tuotekortit {
+        width: 93%;
+        margin-left: 2%;
+    }
+    .taulukko {
+        width: 95%;
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    table {
+        width: 95%;
+    }
+    th {
+        font-size: 15px;
+        padding: 2px;
+    }
+    td {
+        font-size: 13px;
+        padding: 2px;
+    }
+}
+
+/*VÄLIMUOTO*/
+@media only screen and (min-width: 900px) {
+    .flex-item-right, .flex-item-left {
+        flex: 0%;
+    }
+}

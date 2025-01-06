@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latte Luwak - Kahvit</title>
+    <link href="style.css" rel="stylesheet">
+    <!--HEADERFONTTI-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--TUOTENIMIFONTTI-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&display=swap" rel="stylesheet">
+    <!--MUIDEN TEKSTIEN, HINTOJEN FONTTI-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-------------HEADER & NAV------------->
+    <h1 class="bitter-nav" id="latte-luwak">Latte Luwak</h1>
+    <header class="bitter-nav">
+        <ul id="navigaatio">
+            <li><a href="\etusivu.html"><img src="logo.png" id="logo" alt="Latte Luwakin logo"></a>
+            </li>
+            <li>
+                <a href="\etusivu.html" class="etusivu">Etusivu</a>
+            </li>
+            <li>
+                <a href="\juomat.html" class="juoma" id="active">Kahvit</a>
+            </li>
+            <li>
+                <a href="\leivonnaiset.html" class="ruoka">Leivonnaiset</a>
+            </li>
+        </ul>
+    </header>
+
+    <!--Sivun otsikko ja lyhyt kuvaus-->
+    <div class="kahvit">
+    <h1 class="bitter-font">Kahvitarjontamme</h1>
+    <p class="bitter-font" style="font-size: 20px;">Tarjoilemme kahvilassamme vain parhaita kahveja maailmalta. Alta löydät tarjontamme ja hinnaston.</p>
+    </div>
+    <!--Tuotteet-->
+    <div class="tuotteet">
+        <div class="tuotekortit">
+            <div class="tuotekuvaus">
+                <h3 class="rosarivo-regular">Wild Kopi Luwak, Bali</h3>
+                <h3 class="tuotehinta martel-regular">20,00 €</h3>
+                <p class="martel-regular">Lue lisää valmistajan sivuilta:</p>
+                <form action="https://seaislandcoffee.com/products/kopi-luwak-bali-coffee?variant=40326165168171" method="get" target="_blank">
+                    <button class="button rosarivo-regular" type="submit">Sea Island Coffee</button>
+                </form>
+            </div>
+            <div class="tuotekuvat">
+                <img src="kahvit/kopi_luwak.jpg" alt="Kuppi Kopi Luwak -kahvia.">
+            </div>
+        </div>
+
+        <div class="tuotekortit">
+            <div class="tuotekuvaus">
+                <h3 class="rosarivo-regular">Jamaican Blue Mountain blend</h3>
+                <h3 class="tuotehinta martel-regular">16,50 €</h3>
+                <p class="martel-regular">Lue lisää valmistajan sivuilta:</p>
+                <form action="https://bluemountaincoffee.com/our-coffee/" method="get" target="_blank">
+                    <button class="button rosarivo-regular" type="submit">Blue Mountain Coffee</button>
+                </form>
+            </div>
+            <div class="tuotekuvat">
+                <img src="kahvit/blue_mountain.jpg" alt="Kuppi Blue Mountain -kahvia.">
+            </div>
+        </div>
+
+        <div class="tuotekortit">
+            <div class="tuotekuvaus">
+                <h3 class="rosarivo-regular">Hacienda La Esmeralda</h3>
+                <h3 class="tuotehinta martel-regular">18,50 €</h3>
+                <p class="martel-regular">Lue lisää valmistajan sivuilta:</p>
+                <form action="https://haciendaesmeralda.com/" method="get" target="_blank">
+                    <button class="button rosarivo-regular" type="submit">Hacienda La Esmeralda</button>
+                </form>
+            </div>
+            <div class="tuotekuvat">
+                <img src="kahvit/hacienda_la_esmeralda.jpg" alt="Kuppi Hacienda La Esmeralda -kahvia.">
+            </div>
+        </div>
+
+        <div class="tuotekortit">
+            <div class="tuotekuvaus">
+            <h3 class="rosarivo-regular">Himalayan Lalitpur</h3>
+                <h3 class="tuotehinta martel-regular">15,00 €</h3>
+                <p class="martel-regular">Lue lisää valmistajan sivuilta:</p>
+                <form action="https://nepalcoffeecompany.com/coffee/" method="get" target="_blank">
+                    <button class="button rosarivo-regular" type="submit">Nepal Coffee Company</button>
+                </form>
+            </div>
+            <div class="tuotekuvat">
+                <img class="tuotekuvat" src="kahvit/himalayan_coffee.jpg" alt="Kuppi Himalayan -kahvia.">
+            </div>
+        </div>
+
+        <div class="tuotekortit">
+            <div class="tuotekuvaus">
+            <h3 class="rosarivo-regular">Ospina Dynasty</h3>
+                <h3 class="tuotehinta martel-regular">20,00 €</h3>
+                <p class="martel-regular">Lue lisää valmistajan sivuilta:</p>
+                <form action="https://www.ospinacoffee.com/products/index.html" method="get" target="_blank">
+                    <button class="button rosarivo-regular" type="submit">Ospina Coffee</button>
+                </form>
+            </div>
+            <div class="tuotekuvat">
+                <img class="tuotekuvat" src="kahvit/ospina_dynasty.jpg" alt="Kuppi Ospina Dynasty -kahvia.">
+            </div>
+        </div>
+
+        <div class="tuotekortit">
+            <div class="tuotekuvaus">
+                <h3 class="rosarivo-regular">St. Helena</h3>
+                <h3 class="tuotehinta martel-regular">10,00 €</h3>
+                <p class="martel-regular">Lue lisää valmistajan sivuilta:</p>
+                <form action="https://sthelena.coffee/" method="get" target="_blank">
+                    <button class="button rosarivo-regular" type="submit">St. Helena Coffee</button>
+                </form>
+            </div>
+            <div class="tuotekuvat">
+                <img class="tuotekuvat" src="kahvit/st_helena.jpg" alt="Kuppi St. Helena -kahvia.">
+            </div>
+        </div>
+    </div>
+    <!-------------Taulukko tarjouksille------------>
+    <div class="tarjoukset">
+        <h2 class="bitter-font" style="text-align: center;">Suosittelemamme yhdistelmät</h2>
+        <p class="martel-regular sivuteksti" style="text-align: center;">Luksuskavilassakin voi säästää! Tästä syötävää kahvin kanssa, edullisempaan hintaan.</p>
+        <div class="taulukko">
+            <table>
+                <tr>
+                    <th class="bitter-font">Combo</th>
+                    <th class="bitter-font">Sisältää</th>
+                    <th style="width:12%" class="bitter-font">Hinta</th>
+                    <th class="bitter-font">Hinta erikseen</th>
+                    <th class="bitter-font">Huomioitavaa</th>
+                </tr>
+                <tr>
+                    <td class="rosarivo-regular-italic">Latte Luwak</td>
+                    <td class="rosarivo-regular">Kopi Luwak ja juustokakku</td>
+                    <td style="width:12%" class="rosarivo-regular">30,00 €</td>
+                    <td class="rosarivo-regular">30,70 €</td>
+                    <td class="rosarivo-regular">-</td>
+                </tr>
+                <tr>
+                    <td class="rosarivo-regular-italic">Välipala</td>
+                    <td class="rosarivo-regular">St. Helena ja riisipiirakka</td>
+                    <td style="width:12%" class="rosarivo-regular">11,00 €</td>
+                    <td class="rosarivo-regular">14,00 €</td>
+                    <td class="rosarivo-regular">Voimassa vain arkisin klo 14.00 - 16.00.</td>
+                </tr>
+                <tr>
+                    <td class="rosarivo-regular-italic">Perinteinen</td>
+                    <td class="rosarivo-regular">Blue Mountain ja pulla</td>
+                    <td style="width:12%" class="rosarivo-regular">22,00 €</td>
+                    <td class="rosarivo-regular">24,00 € - 24,50 €</td>
+                    <td class="rosarivo-regular">Kerrothan kassalla, kumman pullan haluat.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!--------------FOOTER------------->
+    <div class="footer">
+        <div class="flex-container">
+            <div class="flex-item-left bitter-nav footernimi">
+                Latte Luwak
+            </div>
+            <div class="flex-item-left bitter-nav">
+                otayhteytta@latte-luwak.fi
+            </div>
+            <div class="flex-item-right bitter-nav">
+                Helsinginkatu 6
+            </div>
+            <div class="flex-item-right bitter-nav">
+                +358 41 414 1414
+            </div>
+        </div>
+    </div>
+</body>
+</html>
