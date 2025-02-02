@@ -17,24 +17,66 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Martel&display=swap" rel="stylesheet">
+    <!--PORTFOLION NAVIGOINTI-->
+    <link href="/././home.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
 </head>
 
 <body>
-    <h1 class="bitter-nav" id="latte-luwak">Latte Luwak</h1>
+    <!--PORTFOLION NAVIGOINTI-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Logo</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="/./index.html" class="nav__link">Etusivu</a>
+                    </li>
 
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Minusta</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="/projects/index.html" class="nav__link">Projektit</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Ota yhteyttä</a>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <script src="/./main.js"></script>
+    <!--LOPPU-->
+
+    <h1 class="bitter-nav" id="latte-luwak">Latte Luwak</h1>
     <!--NAVIGOINTI-->
-    <header class="bitter-nav">
-        <ul id="navigaatio">
-            <li><a href="etusivu.html"><img src="logo.png" id="logo" alt="Latte Luwakin logo"></a>
+    <header class="bitter-nav ll-header">
+        <ul id="navigaatio" class="ll-ul">
+            <li class="ll-li"><a href="etusivu.html" class="ll-a"><img src="logo.png" id="logo" alt="Latte Luwakin logo"></a>
             </li>
-            <li>
-                <a href="etusivu.html" class="etusivu" id="active">Etusivu</a>
+            <li class="ll-li">
+                <a href="etusivu.html" class="etusivu ll-a" id="active">Etusivu</a>
             </li>
-            <li>
-                <a href="juomat.html" class="juoma">Kahvit</a>
+            <li class="ll-li">
+                <a href="juomat.html" class="juoma ll-a">Kahvit</a>
             </li>
-            <li>
-                <a href="leivonnaiset.html" class="ruoka">Leivonnaiset</a>
+            <li class="ll-li">
+                <a href="leivonnaiset.html" class="ruoka ll-a">Leivonnaiset</a>
             </li>
         </ul>
     </header>
